@@ -1,8 +1,8 @@
-package Basics;
+package basics;
 
 import java.util.Scanner;
 
-public class sum_of_two {
+public class SumOfTwoNumbers {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
