@@ -11,9 +11,9 @@ public class herons {
 
         int s=(a+b+c)/2;
 
-        double area=Math.sqrt(s*(s-a)*(s-b*(s-c)));
+        double area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
 
-        System.out.println("Area:"+area);
+        System.out.printf("Area: %.2f%n",area);
     }
 
 }
