@@ -8,9 +8,14 @@ public class num {
 
 
         int n=sc.nextInt();
+        int m=sc.nextInt();
 
     for(int i=1;i<=n;i++){
         System.out.printf(i+" ");
+    }
+        System.out.println();
+    for(int j=m;j>=1;j--){
+        System.out.printf(j+" ");
     }
 
     }
