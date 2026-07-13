@@ -9,8 +9,15 @@ public class aPb {
         int b=10;
 
         int result=1;
-        for (int i=1;i<=b;i++){
-            result=result*a;
+        int count=0;
+//        for (int i=1;i<=b;i++){
+//            result=result*a;
+//        }
+//        System.out.println(result);
+
+        while(count<b){
+            result*=a;
+            count++;
         }
         System.out.println(result);
     }
