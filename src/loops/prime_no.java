@@ -12,7 +12,7 @@ public class prime_no {
 
 //        for(int i=1;i<=n;i++){
 //          if(n%i==0) count++;
-//        }
+//        }p
 //
 //        if(count==2) System.out.println("prime");
 //        else System.out.println("not prime");
