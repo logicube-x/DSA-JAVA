@@ -1,5 +1,6 @@
 package temp;
 
+import javax.swing.plaf.IconUIResource;
 import java.util.Scanner;
 
 public class temp2 {
@@ -8,16 +9,13 @@ public class temp2 {
         Scanner sc=new Scanner(System.in);
 
         int n=sc.nextInt();
-        int digit;
-        int rev=0;
-        int copy=n;
-        while(n!=0){
-            digit=n%10;
-            rev=(rev*10)+digit;
-            n/=10;
+
+        while (n==1){
+            System.out.println("Hello");
+            System.out.println("Enter num other than 1 to stop");
+            n=sc.nextInt();
         }
 
-        System.out.println(rev==copy?"palimdrome":"Not palindrome");
 
     }
 
