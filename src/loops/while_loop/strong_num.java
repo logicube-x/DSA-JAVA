@@ -1,11 +1,9 @@
-package temp;
+package loops.while_loop;
 
-import javax.swing.plaf.IconUIResource;
 import java.util.Scanner;
 
-public class temp2 {
+public class strong_num {
     public static void main(String[] args) {
-//        opened hackerrank and explored the platform
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int copy=n;
