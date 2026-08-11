@@ -10,7 +10,7 @@ public class temp1 {
         int n=sc.nextInt();
     int count=0;
         if(n<=1) System.out.println("Not prime");
-        else if(n==2) System.out.println("prime");
+        else if(n==2) System.out.print("prime");
 
         else{
             for(int i=3;i<=n/2;i+=2){
