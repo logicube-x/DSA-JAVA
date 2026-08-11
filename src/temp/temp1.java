@@ -1,6 +1,5 @@
 package temp;
 
-import basics.SumOfTwoNumbers;
 
 import java.util.Scanner;
 
@@ -9,16 +8,19 @@ public class temp1 {
         Scanner sc=new Scanner(System.in);
 
         int n=sc.nextInt();
-        int copy=n;
-    int digit;
-    int rev=0;
+    int count=0;
+        if(n<=1) System.out.println("Not prime");
+        else if(n==2) System.out.println("prime");
 
+        else{
+            for(int i=3;i<=n/2;i+=2){
+                if(n%i==0){
+                    count++;
+                }
 
-        while(n>0){
-            digit=n%10;
-            rev=(rev*10)+digit;
-            n/=10;
+            }
+            System.out.println(count>0?"Not Prime":"Prime");
         }
-        System.out.println(rev==copy?"Palindrome":"Not Palindrome");
+
     }
 }
